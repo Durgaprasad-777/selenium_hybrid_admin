@@ -13,9 +13,9 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage extends BasePage {
     private WebDriver driver;
 
-    private By usernameInput = By.id("username");
-    private By passwordInput = By.id("password");
-    private By loginButton = By.cssSelector("button[type='submit']");
+    private By usernameInput = By.name("username");
+    private By passwordInput = By.name("password");
+    private By loginButton = By.id("login-submit-btn");
     //private By flashMessage = By.id("flash");
 
     private static final Logger logger = LogManager.getLogger(LoginPage.class);
