@@ -1,10 +1,12 @@
 package tests;
 
 import base.BaseTest;
+import listeners.TestListener;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 //import pages.SecureAreaPage;
